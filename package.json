@@ -1,0 +1,49 @@
+{
+  "name": "react-webpack-starterkit",
+  "version": "1.0.0",
+  "description": "Simple starter kit with react, react-router, webpack, ES6, eslint,...",
+  "scripts": {
+    "start": "node server.js",
+    "release": "webpack -p --config './webpack-prod.config.js'",
+    "lint": "./node_modules/.bin/eslint src"
+  },
+  "config": {
+    "port": "3000",
+    "host": "localhost",
+    "buildRep": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuelmichaud/react-webpack-starterkit"
+  },
+  "author": "Samuel Michaud <@samuelmichaud>",
+  "license": "MIT",
+  "homepage": "https://github.com/samuelmichaud/react-webpack-starterkit",
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "css-loader": "^0.23.0",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.6.2",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^1.7.0",
+    "image-webpack-loader": "^1.6.2",
+    "node-sass": "^3.4.2",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "history": "^1.13.1",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-router": "^1.0.0"
+  }
+}
