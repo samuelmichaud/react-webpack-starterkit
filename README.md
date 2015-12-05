@@ -16,11 +16,7 @@ React + Webpack Starter kit
 
 
 ### Requirement
-You must install Node, npm and webpack (globaly)
-
-```
-npm install -g webpack
-```
+You must install Node and npm, that's all.
 
 ### Usage
 

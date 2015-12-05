@@ -4,7 +4,7 @@
   "description": "Simple starter kit with react, react-router, webpack, ES6, eslint,...",
   "scripts": {
     "start": "node server.js",
-    "release": "webpack -p --config './webpack-prod.config.js'",
+    "release": "./node_modules/.bin/webpack -p --config ./webpack-prod.config.js",
     "lint": "./node_modules/.bin/eslint src"
   },
   "config": {
