@@ -20,6 +20,7 @@
   "license": "MIT",
   "homepage": "https://github.com/samuelmichaud/react-webpack-starterkit",
   "devDependencies": {
+    "appcache-webpack-plugin": "^1.2.1",
     "babel-core": "^6.0.20",
     "babel-eslint": "^4.1.3",
     "babel-loader": "^6.0.1",
