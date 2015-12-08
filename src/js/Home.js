@@ -6,7 +6,6 @@ export default class Home extends Component {
     return (
       <div>
         <h1>Home</h1>
-        <Link to='/about'>About</Link>
         <img src={require('./../img/hubble.jpg')} alt=""/>
       </div>
     )
