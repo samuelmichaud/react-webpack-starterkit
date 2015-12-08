@@ -1,7 +1,7 @@
 const path = require('path');
-const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const Clean = require('clean-webpack-plugin');
 const buildRep = process.env.npm_package_config_buildRep;
 
 module.exports = {
@@ -22,7 +22,8 @@ module.exports = {
     }),
     new ExtractTextPlugin('src/styles.[hash].css', {
       allChunks: true
-    })
+    }),
+    new Clean([buildRep])
   ],
   module: {
     loaders: [
