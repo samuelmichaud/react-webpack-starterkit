@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="page">
         <h1>Home</h1>
         <img src={require('./../img/hubble.jpg')} alt=""/>
       </div>
